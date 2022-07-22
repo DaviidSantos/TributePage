@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #FBE5A9;
+}
+
+.hero-section{
+    background: #FBE5A9;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px 120px;
+}
+
+img{
+    height: 400px;
+    width: auto;
+}
+
+.hero-text p{
+    font-size: 32px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: 'Fraunces', serif;
+    margin-bottom: -15px;
+    color: #A06A4F;
+}
+
+.hero-text a{
+    color: #FFF;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    background: #A06A4F;
+    display: block;
+    padding: 10px;
+    margin: 10px auto 0px auto;
+    width: 70%;
+    border-radius: 100px;
+
+}
+
+.hero-text a:hover{
+    background-color: #54433B;
+}
+
+h1{
+    font-size: 64px;
+    font-family: 'Fraunces', serif;
+    color: #54433B;
+}
+
+.heart{
+    color: red;
+}
+
+#Who-Was-George-Carlin{
+    padding: 25px 120px;
+    background: #FFF6E1;
+}
+
+.Tribute-Info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Tribute-Info p{
+    width: 450px;
+    color: #54433B;
+    padding-bottom: 40px;
+}
+
+h2{
+    font-size: 36px;
+    padding: 40px 0;
+    color: #54433B;
+    text-align: center;
+}
+
+.timeline-container{
+    margin: 0 auto;
+    background: #FFF;
+}
+
+
+
+.timeline{
+    margin: 0 auto;
+    width: 45%;
+    padding-bottom: 40px;
+
+}
+
+.timeline li:not(:first-child){
+    padding-top: 15px;
+}
+
+span{
+    font-weight: bold;
+}
+
+.checkout-more-about-george-carlin{
+    background: #00324D;
+    padding: 25px 120px;
+    text-align: center;
+}
+
+.checkout-more-about-george-carlin h3{
+    font-size: 36px;
+    padding: 50px 0 20px 0;
+    color: #7CA4AE;
+}
+
+.checkout-more-about-george-carlin p{
+    color: #FFF;
+    padding-bottom: 15px;
+}
+
+.checkout-more-about-george-carlin a{
+    color: #FFF;
+    background: #7CA4AE;
+    padding: 13px;
+    text-decoration: none;
+    width: 200px;
+    border-radius: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.checkout-more-about-george-carlin a:hover{
+    background: #FFF;
+    color: #000;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background: #FFF;
+}
+
+footer a{
+    color: #00324D;
+}
+
+@media (max-width: 810px){
+    .hero-section{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .hero-text{
+        padding: 0 30px;
+    }
+
+    .hero-text a{
+        width: 100%;
+    }
+
+    .Tribute-Info p{
+        width: 450px;
+        color: #54433B;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px){
+
+    body{
+        font-size: 14px;
+    }
+
+    .hero-section{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text a{
+    }
+
+    #Who-Was-George-Carlin{
+        padding: 0 50px;
+    }
+
+    .Tribute-Info{
+        flex-direction: column;
+    }
+    
+    .Tribute-Info p{
+        width: 95%;
+    }
+
+    h2{
+        font-size: 24px;
+        padding: 20px 10px;
+    }
+
+    .timeline{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .checkout-more-about-george-carlin{
+        padding: 25px 60px;
+    }
+
+    .checkout-more-about-george-carlin h3{
+        font-size: 24px;
+    }
+}
